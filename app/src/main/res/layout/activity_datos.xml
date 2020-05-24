@@ -33,7 +33,7 @@
                     android:id="@+id/imgUser"
                     android:layout_width="140dp"
                     android:layout_height="140dp"
-                    app:srcCompat="@drawable/yo" />
+                    />
             </androidx.cardview.widget.CardView>
 
 
