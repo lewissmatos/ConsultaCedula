@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
         Confirmar.setOnClickListener {
                var cdl = Cedula.text
             if(cdl.isEmpty()){
-                val toast = Toast.makeText(applicationContext, "Debe llenar el campo", Toast.LENGTH_LONG)
-                toast.show()
+                val t = Toast.makeText(this, "Debe llenar el campo", Toast.LENGTH_LONG)
+                t.show()
             }
             else if (cdl.length <= 10){
-                val toast = Toast.makeText(applicationContext, "Su numero de cédula debe tener 11 dígigos", Toast.LENGTH_LONG)
-                toast.show()
+                val t = Toast.makeText(this, "Su numero de cédula debe tener 11 dígigos", Toast.LENGTH_LONG)
+                t.show()
             }
             else{
                 val i = Intent (this, Datos::class.java)

@@ -83,10 +83,10 @@
                 />
 
             <TextView
-                android:id="@+id/txtHelp"
+                android:id="@+id/txtInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="(No introduzca los guiones)"
+                android:text="(Sitio solo de consulta)"
                 android:textColor="#B6B6B6"
                 android:layout_below="@id/edCedula"
                 android:textSize="16sp"
@@ -96,15 +96,16 @@
             
             <Button
                 android:id="@+id/btnConfirmar"
-                android:layout_width="180dp"
+                android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:background="@drawable/fore_bg"
                 android:backgroundTint="@color/colorPrimary"
                 android:layout_marginTop="20dp"
                 android:text="Confirmar"
+                android:drawableRight="@drawable/ir"
                 android:textColor="@color/blanco"
                 android:textSize="18sp"
-                android:layout_below="@id/txtHelp"
+                android:layout_below="@id/txtInfo"
                 android:layout_centerInParent="true"
                 />
         </RelativeLayout>
